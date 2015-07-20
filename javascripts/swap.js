@@ -43,7 +43,7 @@
   var add14ListRadio = document.querySelector('input[value="14List"]');
   
   add14ListRadio.addEventListener("click", function() {
-  	var class14List = [AK, Harry, Mel, Abila, AJay, Asal, Craig, Ethan, Francisco, Jeff, Jesse, Jessica, Josh, Julian, Kelly, Mewpeter, Rachel];
+  	var class14List = ['AK', 'Harry', 'Mel', 'Abila', 'AJay', 'Asal', 'Craig', 'Ethan', 'Francisco', 'Jeff', 'Jesse', 'Jessica', 'Josh', 'Julian', 'Kelly', 'Mewpeter', 'Rachel'];
   	studentArray = class14List;
     field.value = "";
     studentName = "";
