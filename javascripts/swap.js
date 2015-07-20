@@ -43,7 +43,20 @@
   var add14ListRadio = document.querySelector('input[value="class14List"]');
   
   add14ListRadio.addEventListener("click", function() {
-  	var class14List = ['AK', 'Harry', 'Mel', 'Abila', 'AJay', 'Asal', 'Craig', 'Ethan', 'Francisco', 'Jeff', 'Jesse', 'Jessica', 'Josh', 'Julian', 'Kelly', 'Mewpeter', 'Rachel'];
+  	var class14List = [
+  		'Abila', 
+  		'Harry', 
+  		'Mel', 
+  		'Asal', 
+  		'Ethan', 
+  		'Francisco', 
+  		'Harry', 
+  		'Jesse', 
+  		'Julian', 
+  		'Kelly', 
+  		'Mark', 
+  		'Rachel'
+  		];
   	studentArray = class14List;
     field.value = "";
     studentName = "";
@@ -53,16 +66,16 @@
 
 
 
-  var add69ListRadio = document.querySelector('input[value="class69List"]');
+  //var add69ListRadio = document.querySelector('input[value="class69List"]');
   
-  add69ListRadio.addEventListener("click", function() {
-  	var class69List = ['AK', 'Harry', 'Mel', 'Abila', 'AJay', 'Asal', 'Craig', 'Ethan', 'Francisco', 'Jeff', 'Jesse', 'Jessica', 'Josh', 'Julian', 'Kelly', 'Mewpeter', 'Rachel'];
-  	studentArray = class69List;
-    field.value = "";
-    studentName = "";
-    console.log("Added 6:30-9:30pm class list!");
+  //add69ListRadio.addEventListener("click", function() {
+  //	var class69List = ['AK', 'Harry', 'Mel', 'Abila', 'AJay', 'Asal', 'Craig', 'Ethan', 'Francisco', 'Jeff', 'Jesse', 'Jessica', 'Josh', 'Julian', 'Kelly', 'Mewpeter', 'Rachel'];
+  //	studentArray = class69List;
+  //  field.value = "";
+  //  studentName = "";
+  //  console.log("Added 6:30-9:30pm class list!");
 
-  });
+  //});
 
 
 
