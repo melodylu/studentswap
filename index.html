@@ -4,19 +4,52 @@
   <meta charset="utf-8">
 
   <title>StudentSwap</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="quickly match up student pairs for classwork randomly">
+  <meta name="author" content="Melody Lu">
 
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css?v=1.0">
 
+  
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 
 <body>
+<div class="container">
+	
+	<div class="main">
+	
+		<div class="students-add">			
+			<h1> Automated Student Matcher</h1>
+			<input type="text" id="student">
+			<button id="addStudent">Add Student</button>
+			<input type="radio" name="presetList" value="14List" unchecked>1-4pm Class list
+  		<input type="radio" name="presetList" value="69List" unchecked>6:30-9:30pm Class list
+<br>
+			<button id="printStudent">Shuffle & Print List</button>
+			<button id="clearStudent">Clear Student list</button>
+		</div>
+	
+		<div id="suggestions">	
+	  Pair up and roll out!
+		</br>
+		</div>
+		
 
-<h1> Pair up and roll out!</h1>
+
+
+	</div>
+
+</div>
+
+
+
+<script>
+</script>
+
+
 
   <script src="js/underscore.js"></script>
   <script src="js/swap.js"></script>
