@@ -50,7 +50,6 @@
   		'Asal', 
   		'Ethan', 
   		'Francisco', 
-  		'Harry', 
   		'Jesse', 
   		'Julian', 
   		'Kelly', 
